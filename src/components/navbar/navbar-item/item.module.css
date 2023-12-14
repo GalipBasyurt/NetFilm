@@ -1,0 +1,52 @@
+.logo{
+    text-decoration: none;
+    font-size: 1.9rem;
+    background: -webkit-linear-gradient(#db0000, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font: bold;
+}
+
+.search-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: .5rem;
+    width: 50%;
+    padding: .5rem;
+}
+
+.search-input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: gainsboro;
+    font-size: 1rem;
+    /* text-transform: capitalize; */
+}
+
+.search-input::placeholder{
+    /* color: white; */
+}
+
+.search-icon{
+    cursor: pointer;
+    color: white;
+}
+
+.link-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.link-item{
+    text-decoration: none;
+    font-size: 1.2rem;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

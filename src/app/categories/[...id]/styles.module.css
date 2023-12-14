@@ -1,0 +1,48 @@
+.category{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: .5rem;
+}
+
+.category h1{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+
+.movies-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.movies {
+    position: relative;
+    height: 300px;
+    width: 250px;
+  }
+  
+  .movie {
+    overflow: hidden;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+    object-fit: cover;
+  }
+  
+  .movie:hover {
+    z-index: 9;
+    transform: scale(1.15);
+  }
+
+  .loading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 75vh;
+  }

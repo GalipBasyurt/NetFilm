@@ -1,0 +1,58 @@
+.featuredMovie{
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.featuredMovie .content{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.featuredMovie .topRated{
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.featuredMovie .title{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.featuredMovie .overview{
+  font-size: 1.2rem;
+  width: 50%;
+  letter-spacing: .2rem;
+  line-height: 1.8rem;
+}
+
+.featuredMovie .date{
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+.moviePosterOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 0.7) 30%,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 1) 100%
+    );
+    z-index: -1;
+  }
+  
+  .moviePoster img {
+    height: auto !important;
+    z-index: -2;
+    max-height: 100vh;
+    object-fit: cover;
+  }
+
+
